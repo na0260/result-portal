@@ -1,0 +1,144 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  background-image: url("2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: .5fr 3fr .5fr;
+  background-color: black;
+  margin: 0;
+  align-items: center;
+  border: solid black;
+}
+ul{
+  color: white;
+  list-style-type: none;
+  text-align: right;
+}
+
+li>a{
+  color: white;
+  list-style-type: none;
+  text-align: right;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: .5fr .5fr;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto;
+  border: solid 1px;
+  background-color: black;
+  opacity: 80%;
+  margin-top: 15%;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 2%;
+}
+
+
+
+.head {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10%;
+}
+
+.title>p {
+  color: green;
+  margin: 0%;
+  font-size: 220%;
+}
+
+.title {
+  margin-top: 7%;
+}
+
+.logo {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.logo>img {
+  height: 150px;
+  width: 150px;
+}
+
+#button {
+  display: grid;
+  align-items: center;
+  grid-template-rows: auto auto;
+  text-align: center;
+  gap: 10%;
+  margin-bottom: 5%;
+}
+
+.button1 {
+  display: block;
+  background: green;
+  font-size: larger;
+  margin: 0% 5%;
+}
+
+.button2 {
+  display: block;
+  background: green;
+  font-size: larger;
+  margin: 0% 5%;
+  margin-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+}
+
+.login_title>h1{
+  color: white;
+  text-align: center;
+  margin: 0%;
+}
+
+input {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+button {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  background-color: #4CAF50;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 80%;
+  text-align: center;
+}
+
+#form{
+  margin: 2% 5% 5% 5%;
+}
